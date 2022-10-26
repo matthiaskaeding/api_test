@@ -1,3 +1,4 @@
-api_r_function <- function(x) {
-  return(as.character(x))
+fun <- function(x, y) {
+  out <- sprintf("x: %s; y:%s", as.character(x), as.character(y))
+  return(out)
 }
